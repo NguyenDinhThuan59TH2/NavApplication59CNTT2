@@ -36,5 +36,9 @@
         android:id="@+id/productFragment"
         android:name="vn.edu.ntu.nguyendinhthuan.navapplication59cntt2.ProductFragment"
         android:label="fragment_product"
-        tools:layout="@layout/fragment_product" />
+        tools:layout="@layout/fragment_product" >
+        <action
+            android:id="@+id/action_productFragment_to_listProductFragment"
+            app:destination="@id/listProductFragment" />
+    </fragment>
 </navigation>
